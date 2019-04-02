@@ -35,6 +35,7 @@ Compression_func (){
   for i in $file_Compression;do
      mv "$i" "$HOME/Downloads/Compression"
   done
+}
 pic_func (){
     file_pic=`ls $HOME/Downloads/*.jpg $HOME/Downloads/*.png $HOME/Downloads/*.jpeg $HOME/Downloads/*.ico $HOME/Downloads/*.gif $HOME/Downloads/*.jpe`
     if [ -d "$HOME/Downloads/pic" ];then
